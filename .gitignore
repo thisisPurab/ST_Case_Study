@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc.*
+*.log
+
+# Virtual Environment
+venv/
+.env/
+
+# Pytest
+.pytest_cache/
+
+# Reports
+reports/
+*.html
+
+# Screenshots
+screenshots/
+
+# JMeter
+performance/results
+results.jtl
+*.jtl
+html_report/
+*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Misc
+*.swp
+*.bak

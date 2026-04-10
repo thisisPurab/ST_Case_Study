@@ -1,0 +1,38 @@
+[
+    {
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "expected": "success",
+        "type": "positive"
+    },
+    {
+        "username": "standard_user",
+        "password": "wrong_pass",
+        "expected": "error",
+        "type": "negative"
+    },
+    {
+        "username": "",
+        "password": "secret_sauce",
+        "expected": "error",
+        "type": "negative"
+    },
+    {
+        "username": "standard_user",
+        "password": "",
+        "expected": "error",
+        "type": "negative"
+    },
+    {
+        "username": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "password": "secret_sauce",
+        "expected": "error",
+        "type": "boundary_30"
+    },
+    {
+        "username": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "password": "secret_sauce",
+        "expected": "error",
+        "type": "boundary_31"
+    }
+]
