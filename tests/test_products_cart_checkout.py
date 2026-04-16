@@ -13,7 +13,8 @@ def test_products_visible(driver):
     login.login("standard_user", "secret_sauce")
 
     product = ProductPage(driver)
-    assert product.get_product_count() >= 6
+    # assert product.get_product_count() >= 6
+    assert False
 
 
 # FR-08
@@ -45,7 +46,8 @@ def test_cart_details(driver):
     product.go_to_cart()
     cart = CartPage(driver)
 
-    assert cart.get_cart_count() == 1
+    # assert cart.get_cart_count() == 1
+    assert False
 
 
 # FR-10
